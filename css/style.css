@@ -183,6 +183,16 @@ nav ul li a:hover{
 .smallbox2{
     width: 150px;
 }
+.smallbox2 button:hover{
+    background-color: white;
+    color: #7749f8;
+    cursor: pointer;
+}
+.smallbox3 button:hover{
+    background-color: #7749f8;
+    color: white;
+    cursor: pointer;
+}
 .smallbox2 button{
     border: 1px solid #7749f8;
     background-color: #7749f8;
@@ -231,14 +241,17 @@ nav ul li a:hover{
     float: right;
     width: 60%;
 }
-.forms input{
+.forms .placehold{
     width: 400px;
     padding: 20px 20px;
     border: 1px solid #dee2e6;
     font-size: large;
 }
+.forms .disable{
+    color: #cccccc;
+}
 .forms select{
-    width: 350px;
+    width: 400px;
     padding: 20px 20px;
     font-size: large;
 }
@@ -247,5 +260,166 @@ nav ul li a:hover{
 }
 .defaultcheckbox{
     width: 150px;
-    height: 400px;
+    height: 100px;
+}
+.defaultcheckbox input{
+    margin: 0px;
+}
+.defaultradio{
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+.success{
+    width: 400px;
+    padding: 20px 20px;
+    border: 1px solid green;
+    border-radius: 4px;
+    font-size: large;
+}
+.error{
+    width: 400px;
+    padding: 20px 20px;
+    border: 1px solid red;
+    font-size: large;
+    border-radius: 4px;
+}
+/* ===========*/
+#listGroup h1{
+    font-size: 50px;
+    margin: 2dvb;
+    margin-left: 0;
+}
+.content1{
+    width: 60%;
+    float: left;
+    margin: 0;
+}
+.content1 ul{
+    padding: 0;
+    list-style-type: none;
+}
+.content1 ul li{
+    padding: 10px 5px;
+    border: 1px solid #dee2e6 ;
+    width: 50%;
+}
+.content2{
+    float: right;
+    width: 40%;
+}
+.contentbox{
+    width: 80%;
+}
+.contentbox .row{
+    color: white;
+    background-color: #7749f8;
+    padding: 8px 20px;
+    border: 1px solid #dee2dd;
+}
+.contentbox .row2{
+    color: black;
+    padding: 8px 20px;
+    border: 1px solid #dee2dd;
+}
+/* =============== */
+#table h1{
+    font-size: 50px;
+    margin: 2dvb;
+    margin-left: 0;
+}
+#table table{
+    border-right: white;
+    border-left: white;
+    border: #dee2dd;
+}
+.panel{
+    float: right;
+    padding: 30px 0px;
+}
+.panel button{
+    width: 80px;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.panel .three{
+    background-color: #efefef;
+    color: #7749f8;
+    border-color: #212121;
+}
+#card h1{
+    font-size: 50px;
+    margin: 2dvb;
+    margin-left: 0;
+}
+.card, .card2, .card3{
+    width:350px;
+    height: 350px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,0.8);
+    float: left;
+    margin-right: 30px;
+}
+.card .upper img, .card .upper .description{
+    float: left;
+}
+.card .upper img{
+    padding: 15px 5px;
+}
+.card .upperbottom{
+    padding: 20px;
+    text-align: center;
+}
+.card .upperbottom img{
+    width: 60px;
+    height: 30px;
+    padding-left: 20px;
+}
+#card .lowerbottom{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0,0.8);
+    text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.lowerbottom img{
+    float: left;
+    padding-left: 50px;
+}
+.lowerbottom input{
+    float: left;
+    margin-top: 8px;
+}
+.card2{
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+}
+.card2 .player{
+    position: absolute;
+    top: 180px;
+    left: 135px;
+}
+.card3{
+    height: 420px;
+}
+.card3 button{
+    background-color: green;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.card3 p{
+    margin-left: 20px;
+}
+
+.card3 .upper .description{
+    float: left;
+    font-size: 12px;
+}
+.card3 .upper >*{
+    float: left;
+    margin-top: 15px;
+    text-align: left;
 }

@@ -208,7 +208,7 @@
         <div class="forms clearfix">
             <h3>Input</h3>
             <br>
-            <input type="text" placeholder="placeholder">
+            <input type="text" placeholder="placeholder" class="placehold">
            <br><br><br>
             <h3>Select Menu</h3>
             <br>
@@ -222,18 +222,170 @@
             <textarea name="" id="" cols="30" rows="10" placeholder="write your message here"></textarea>
             <br><br><br>
             <h3>Checkboxes</h3>
-            <div class="defaultcheckbox">
-                <h4>Checkboxes</h4>
-                Default Checkbox
-                <input type="checkbox">
-                <input type="checkbox">
-                <input type="checkbox">
+            <div class="checkbox clearfix">
+                <div class="defaultcheckbox">
+                    <h4>Checkboxes</h4>
+                    
+                    <input type="checkbox"><span>Default Checkbox</span>
+                    <input type="checkbox"><span>Default Checkbox</span>
+                    <input type="checkbox" disabled><span class="disable">Default Checkbox</span>
+                </div>
+                <div class="inlinecheckbox">
+                    <h4>Checkboxes Inline</h4>
+                    <input type="checkbox"><span>Default Checkbox</span>
+                    <input type="checkbox"><span>Default Checkbox</span>
+                    <input type="checkbox" disabled><span class="disable">Default Checkbox</span>
+                </div>   
+            </div> <br><br>
+            <h3>Radio</h3>
+            <div class="defaultradio">
+                <input type="radio"><span>Default radio</span><br>
+                <input type="radio"><span>Default radio</span><br>
+                <input type="radio" disabled><span class="disable">Default radio</span>
             </div>
-            <div class="inlinecheckbox">
-                <h4>Checkboxes Inline</h4>
+                
+            <div class="inlineradio">
+                <input type="radio"><span>Default radio</span>
+                <input type="radio"><span>Default radio</span>
+                <input type="radio" disabled><span class="disable">Default radio</span>
+            </div>
+            <h3 style="clear: both;">Validation</h3>
+            <p>Input Success</p>
+            <input type="text" placeholder="placeholder" class="success">
+            <p>Input error</p>
+            <input type="text" placeholder="placeholder" class="error">
+        </div>
+    </section>
+    <section id="listGroup clearfix">
+        <h1>List Group</h1>
+        <hr>
+        <div class="content1">
+            <h3>Basic example</h3>
+            <ul>
+                <li style="background-color: #7749f8;color: white;">something</li>
+                <li>more</li>
+                <li>fabulous</li>
+                <li>something</li>
+                <li>more engaging</li>
+            </ul>
+        </div>
+        <div class="content2">
+            <h3>Custom content</h3>
+            <div class="contentbox">
+                <div class="row clearfix">
+                    <h4 style="display: inline; float: left;">List group item heading</h4>
+                    <span style="float: right;line-height: 64px;">3 days ago</span>
+                    <br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adit quis aliquam voluptate, repudiandae ratione praesentium minus.</p>
+                    <p>something more fabulous something more fabulous something more fabulous something more fabulous</p>
+                </div>
+                <div class="row2 clearfix">
+                    <h4 style="display: inline; float: left;">List group item heading</h4>
+                    <span style="float: right;line-height: 64px;">3 days ago</span>
+                    <br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adit quis aliquam voluptate, repudiandae ratione praesentium minus.</p>
+                    <p>something more fabulous something more fabulous something more fabulous something more fabulous</p>
+                </div>
+                <div class="row2 clearfix">
+                    <h4 style="display: inline; float: left;">List group item heading</h4>
+                    <span style="float: right;line-height: 64px;">3 days ago</span>
+                    <br><br><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adit quis aliquam voluptate, repudiandae ratione praesentium minus.</p>
+                    <p>something more fabulous something more fabulous something more fabulous something more fabulous</p>
+                </div>
             </div>
         </div>
     </section>
-    <section></section>
+    <section id="table" >
+        <h1 style="clear: both;">Tables</h1>
+        <hr>
+        <table border="1" width="100%" height="200px" cellpadding="15px">
+            <tr align="left">
+                <th>#</th>
+                <th>First</th>
+                <th>Last</th>
+                <th>Handle</th>
+            </tr>
+            <tr bgcolor="#f2f2f2">
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr bgcolor="#f2f2f2">
+                <td>3 </td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </table>
+        <div class="panel">
+            <button class="two" color: #dddddd;">Prev</button>
+            <button  class= "three" style="background-color: #7749f8;box-shadow: 2px 2px 2px #212121;color: white;" >1</button>
+            <button class= "three">2</button>
+            <button class= "three">3</button>
+            <button class= "three">Next</button>
+
+        </div>
+    </section>
+    <section id="card">
+        <h1 style="clear: both;">Cards</h1>
+        <hr>
+        <div class="cardsuper">
+            <div class="card">
+                <div class="upper clearfix">
+                    <img src="images/icon.PNG" alt="" width="80px">
+                    <div class="description">
+                        <p><b>Stuar Manson</b></p>
+                        <p style="line-height: 1px;">Publicado hace 2 horas</p>
+                    </div>
+                    <img src="images/list.PNG" width="40px" style="float: right;">
+                </div>
+                <div class="mid">
+                    <img src="images/flower.PNG" alt="" width="100%">
+                </div>
+                <div class="upperbottom">
+                    <img src="images/like.PNG" alt="">
+                    <img src="images/message.PNG" alt="">
+                    <img src="images/share.PNG" alt="">
+                </div>
+                <div class="lowerbottom clearfix">
+                <img src="images/icon.PNG" alt="" width="50px">
+                <input type="text" placeholder="Enter your comment">
+            </div>
+            </div>
+            
+            <div class="card2">
+                <img src="images/lady.PNG" alt="" width="350px">
+                <img src="images/play.PNG" alt=""width="80px" class="player">
+                <br><br>
+                <p>Something goes header</p>
+            </div>
+            <div class="card3">
+                <button>Home</button>
+                <p>HHHsomething</p>
+                <p>Somethng similear</p>
+                <img src="images/room.PNG" width="350px">
+                <div class="upper clearfix">
+                    <img src="images/icon.PNG" alt="" width="80px" class="img">
+                    <div class="description">
+                        <p style="font-size: 12px;"><b>Stuar Manson</b></p>
+                    </div>
+                    <div class="leftpart">
+                        <img src="images/message.PNG" width="40px"><p>20</p>
+                    </div>
+                    <div class="rightpart">
+                        <img src="images/lovereact.PNG" alt="" width="40px"><p>22</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
